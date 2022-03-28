@@ -41,6 +41,7 @@ class ViewController: UIViewController {
                 alert.addAction(okbutton)
                 self.present(alert, animated: true, completion: nil)
             userTextfield.text = ""
+            print("TEST")
             paswordtext.text = ""
             paswordTextfeild.text = ""
         }

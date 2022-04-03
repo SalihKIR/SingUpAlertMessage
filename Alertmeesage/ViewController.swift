@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
     @IBAction func buttonsingup(_ sender: Any) {
         
+        ///
         if paswordtext.text == paswordTextfeild.text{
 //            let alert = UIAlertController(title: "Harika", message: "Kayıt başarılı bir şekilde oluşturuldu.", preferredStyle: UIAlertController.Style.alert)
 //            let okbutton = UIAlertAction(title: "OK", style: UIAlertAction.Style.default) { UIAlertAction in

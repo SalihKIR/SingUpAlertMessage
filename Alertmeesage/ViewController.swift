@@ -11,7 +11,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         buttonsingupconfig.setTitle("Sing UP", for: .normal)
         labelfirst.text = "SingUp"
-       
+        paswordTextfeild.isSecureTextEntry = true
+        paswordtext.isSecureTextEntry = true
     }
     @IBAction func buttonsingup(_ sender: Any) {
         
